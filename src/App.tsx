@@ -24,7 +24,7 @@ const App: React.FC = () => {
   //----------------------------
 
   return (
-    <div className='app'>
+    <div className={todo.app}>
       <TodoForm value={text} handleSubmit={handleSubmit} updateText={setText} />
       <TodoList />
     </div>
