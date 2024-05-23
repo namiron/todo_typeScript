@@ -8,7 +8,7 @@ import { FaDeleteLeft } from "react-icons/fa6";
 import todo from './../modules/todo.module.scss';
 import Checkbox from './Checkbox';
 
-const TodoItem: React.FC<ITodoItemType> = ({ id, completed, title }) => {
+const TodoItem: React.FC<ITodoItemType> = ({ id, title }) => {
     const dispatch = useAppDispatch();
     const [isChecked, setChecked] = React.useState(false);
     return (
