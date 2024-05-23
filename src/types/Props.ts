@@ -9,3 +9,8 @@ export interface ITodoFormType {
     handleSubmit: () => void,
     updateText: (text: string) => void
 }
+
+export interface ICheckedType {
+    isChecked: boolean;
+    setChecked: React.Dispatch<React.SetStateAction<boolean>>;
+}
